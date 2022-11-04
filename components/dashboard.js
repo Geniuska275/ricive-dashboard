@@ -1,10 +1,8 @@
 import React from "react";
+import Nav from "./nav";
+import Main from "./Main";
 
-import Main from "../components/Main";
-
-import Nav from "../components/nav";
-
-export default function Homepage() {
+function Dashboard() {
   return (
     <div className="min-h-[90vh] w-full grid grid-cols-12">
       <Nav />
@@ -14,3 +12,5 @@ export default function Homepage() {
     </div>
   );
 }
+
+export default Dashboard;
